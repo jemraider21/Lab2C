@@ -101,7 +101,7 @@ public class Lab2C{
                         int emailLength = email.length();
 
                         //  Count characters before @ symbol
-                        int charBeforeAt = email.substring(0, (atLocation-1)).length();
+                        int charBeforeAt = email.substring(0, (atLocation)).length();
 
                         //  Count characters after @ symbol
                         int charAfterAt = email.substring((atLocation+1)).length();
