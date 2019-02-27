@@ -113,14 +113,14 @@ public class Lab2C{
                         // Change the case type of the email
                         email = caseManip(email);
 
-                        //  If characters after @ symbol == howardcc.edu
+                        //  If characters after @ symbol == howardcc.edu, write the email to howardBeeMailing.txt
                         if(emailAfterAt.equals("howardcc.edu")){
 
                             writer.println(email);
 
                         } // End if statement
                         
-                    } else if(email.equals("endoftextfile")){
+                    } else if(email.equals("endoftextfile")){ // If endoftextfile appears, break to not showcase anything  to output
 
                         break;
 
